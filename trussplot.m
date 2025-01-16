@@ -58,7 +58,7 @@ fC = [0 0 0];
 fD1 = [0 Dy1 0];
 syms fEF fDE
 
-qD = (360-36.87)*pi/180; % Angle calculations (radians) differ from video because using 3,4,5, triangle
+qD = (360-36.87)*pi/180; 
 fDEx = fDE*cos(qD); % Defining components of force DE
 fDEy = fDE*sin(qD); 
 fD11 = [fDEx fDEy 0]; 
@@ -103,7 +103,7 @@ rH = [4 0 0];
 
 syms fAB fAH
 
-qB = (360-36.87)*pi/180; % Angle in degrees calculated from knowlege of 3, 4, 5 triangle 
+qB = (360-36.87)*pi/180; 
 fABx = -fAB*cos(qB);
 fABy = fAB*sin(qB);
 fB = [fABx fABy 0];
@@ -277,7 +277,7 @@ fC = [0 0 0];
 fD1 = [0 Dy2 0];
 syms fEF fDE
 
-qD = (360-36.87)*pi/180; % Angle calculations (radians) differ from video because using 3,4,5, triangle
+qD = (360-36.87)*pi/180; 
 fDEx = fDE*cos(qD); % Defining components of force DE
 fDEy = fDE*sin(qD); 
 fD11 = [fDEx fDEy 0]; 
@@ -322,7 +322,7 @@ rH = [4 0 0];
 
 syms fAB fAH
 
-qB = (360-36.87)*pi/180; % Angle in degrees calculated from knowlege of 3, 4, 5 triangle 
+qB = (360-36.87)*pi/180; 
 fABx = -fAB*cos(qB);
 fABy = fAB*sin(qB);
 fB = [fABx fABy 0];
